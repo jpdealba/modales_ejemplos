@@ -166,14 +166,14 @@ const Examples = () => {
               selected={selectedOption}
               options={fields}
               label={"Filtro"}
-              classes={"w-1/3"}
+              classes={"w-1/4"}
             />
             {selectedOption && (
               <BrekenTextInput
                 handleChange={(e) => setText(e.target.value)}
                 value={text}
                 placeholder={"Buscar"}
-                classes={"w-1/3"}
+                classes={"w-1/4"}
               />
             )}
           </div>
